@@ -29,5 +29,21 @@ $hewan->jenis='Mamalia';
 echo $hewan->tampilkan_nama();
 echo "<br>";
 echo $hewan->tampilkan_jenis();
+echo "<br>";
+
+//intanisasiasi classs paus
+$paus=new hewan();
+
+//mengakses property dalam class hewan
+$paus->nama='Paus';
+$paus->jenis='Mamalia';
+
+
+//memanggil method tampilkan_namad dari class manusia
+echo $paus->tampilkan_nama();
+echo "<br>";
+echo $paus->tampilkan_jenis();
+echo "<br>";
+
 
 ?>
