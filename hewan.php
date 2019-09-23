@@ -36,7 +36,7 @@ $paus=new hewan();
 
 //mengakses property dalam class hewan
 $paus->nama='Paus';
-$paus->jenis='Mamalia';
+$paus->jenis='Carnivora';
 
 
 //memanggil method tampilkan_namad dari class manusia
