@@ -28,6 +28,11 @@ class barang{
 class pembayaran{
     //property
     public $tgl_bayar,$jumlah_tagihan;
+    
+    //method
+    function tampilkan_tanggal(){
+        return "Tanggal Bayar : ".$this->$tgl_bayar;
+    }
 }
 
 class lunas extends pembayaran{
